@@ -1,0 +1,91 @@
+*{
+  font-family: Zilla-slab;
+  src:url(../fontes/ZillaSlab-Regular.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,Consolas,Calibri;
+    background-color: #FFCCFF;
+}
+
+nav{
+    line-height: 4;
+    font-size: 16px;
+    background-color:rgba(255,187,95,0.9);
+
+ z-index: 1;
+    /**deixa fixo**/
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+nav div{
+   margin: 0 auto;
+   width: 80%;
+
+
+}
+nav div a{
+    color:#ffffff;
+   text-decoration: none;
+   padding-right: 25px;
+   padding-left: 15px;
+
+}
+#index nav div a {
+    color:white;
+}
+
+.cabecalho{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+   color:#ffffff;
+  margin-top: 150px;
+
+
+}
+span{
+    padding: 40px;
+    border-radius: 400px;
+    background-color: rgba(255,187,95,0.7);
+}
+.jumbotron{
+   background-image: url(../imagens/ca.jpg);
+   background-size: cover;
+   height: 450px;
+   text-align:right;
+}
+.borda{
+    border: 2px solid #000;
+}
+.rodape{
+  line-height: 4;
+  font-size: 16px;
+  background-color:#000;
+color:#ffffff;
+position:relative;
+top: 50px;
+width: 100%;
+text-align:right;
+}
+#index h2 {
+    color:rgba(255,187,95,0.9);
+}
+.trans{
+    transition: all .30s ease;
+
+}
+.trans:hover{
+    transform: scale(1.1);
+}
+.centrar{
+  text-align:center;
+}
+.redondo{
+ border-radius: 25%;
+}
